@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@fontsource/poppins/index.css";
+@layer base {
+    body {
+        @apply bg-slate-900 text-white font-ff relative
+
+    }
+
+    button {
+        @apply px-4 py-2 text-sm 
+    }
+
+    .btn-primary {
+        @apply bg-slate-700 rounded-lg text-lime-300 
+    }
+
+    .btn-primary-outline {
+        @apply border rounded-lg border-lime-300 text-lime-300
+    }
+
+    button:hover {
+        @apply scale-105 transition-all duration-100 
+}
+
+    
+
+}
+
+@layer components {
+    .signOut {
+            @apply bg-red-600 rounded-lg font-medium
+        }
+}
+
