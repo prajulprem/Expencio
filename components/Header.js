@@ -8,7 +8,7 @@ export const Header = () => {
           <div className="w-[50px] h-[50px] rounded-full overflow-hidden"> 
             <img src='profile.png' alt='' />
           </div>
-          <small>Hi, Bosdk!</small>
+          <small>Hi, User!</small>
         </div>
 
       {/* right side of the header */}
